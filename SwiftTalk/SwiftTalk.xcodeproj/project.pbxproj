@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082AA6451FFA69A200292BDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082AA6441FFA69A200292BDA /* AppDelegate.swift */; };
+		082AA6471FFA69A200292BDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082AA6461FFA69A200292BDA /* ViewController.swift */; };
+		082AA64C1FFA69A200292BDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082AA64B1FFA69A200292BDA /* Assets.xcassets */; };
+		082AA64F1FFA69A200292BDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082AA64D1FFA69A200292BDA /* LaunchScreen.storyboard */; };
+		082AA65A1FFA69A200292BDA /* SwiftTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082AA6591FFA69A200292BDA /* SwiftTalkTests.swift */; };
+		082AA6651FFA69A200292BDA /* SwiftTalkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082AA6641FFA69A200292BDA /* SwiftTalkUITests.swift */; };
+		337CE54CDA4D80712127C1C1 /* Pods_SwiftTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		082AA6561FFA69A200292BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082AA6391FFA69A200292BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082AA6401FFA69A200292BDA;
+			remoteInfo = SwiftTalk;
+		};
+		082AA6611FFA69A200292BDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082AA6391FFA69A200292BDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082AA6401FFA69A200292BDA;
+			remoteInfo = SwiftTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		082AA6411FFA69A200292BDA /* SwiftTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082AA6441FFA69A200292BDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		082AA6461FFA69A200292BDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		082AA64B1FFA69A200292BDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082AA64E1FFA69A200292BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082AA6501FFA69A200292BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082AA6551FFA69A200292BDA /* SwiftTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082AA6591FFA69A200292BDA /* SwiftTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTalkTests.swift; sourceTree = "<group>"; };
+		082AA65B1FFA69A200292BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		082AA6601FFA69A200292BDA /* SwiftTalkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTalkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		082AA6641FFA69A200292BDA /* SwiftTalkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTalkUITests.swift; sourceTree = "<group>"; };
+		082AA6661FFA69A200292BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42109056DB62C226282C41B7 /* Pods-SwiftTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.debug.xcconfig"; sourceTree = "<group>"; };
+		FB8C7B71BC3692607BE869E6 /* Pods-SwiftTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		082AA63E1FFA69A200292BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337CE54CDA4D80712127C1C1 /* Pods_SwiftTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082AA6521FFA69A200292BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082AA65D1FFA69A200292BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082AA6381FFA69A200292BDA = {
+			isa = PBXGroup;
+			children = (
+				082AA6431FFA69A200292BDA /* SwiftTalk */,
+				082AA6581FFA69A200292BDA /* SwiftTalkTests */,
+				082AA6631FFA69A200292BDA /* SwiftTalkUITests */,
+				082AA6421FFA69A200292BDA /* Products */,
+				49146ED76C4A2DE951593CF0 /* Pods */,
+				DD70D9B2DDB8B321F20AC9C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		082AA6421FFA69A200292BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				082AA6411FFA69A200292BDA /* SwiftTalk.app */,
+				082AA6551FFA69A200292BDA /* SwiftTalkTests.xctest */,
+				082AA6601FFA69A200292BDA /* SwiftTalkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		082AA6431FFA69A200292BDA /* SwiftTalk */ = {
+			isa = PBXGroup;
+			children = (
+				082AA6441FFA69A200292BDA /* AppDelegate.swift */,
+				082AA6461FFA69A200292BDA /* ViewController.swift */,
+				082AA64B1FFA69A200292BDA /* Assets.xcassets */,
+				082AA64D1FFA69A200292BDA /* LaunchScreen.storyboard */,
+				082AA6501FFA69A200292BDA /* Info.plist */,
+			);
+			path = SwiftTalk;
+			sourceTree = "<group>";
+		};
+		082AA6581FFA69A200292BDA /* SwiftTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				082AA6591FFA69A200292BDA /* SwiftTalkTests.swift */,
+				082AA65B1FFA69A200292BDA /* Info.plist */,
+			);
+			path = SwiftTalkTests;
+			sourceTree = "<group>";
+		};
+		082AA6631FFA69A200292BDA /* SwiftTalkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				082AA6641FFA69A200292BDA /* SwiftTalkUITests.swift */,
+				082AA6661FFA69A200292BDA /* Info.plist */,
+			);
+			path = SwiftTalkUITests;
+			sourceTree = "<group>";
+		};
+		49146ED76C4A2DE951593CF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42109056DB62C226282C41B7 /* Pods-SwiftTalk.debug.xcconfig */,
+				FB8C7B71BC3692607BE869E6 /* Pods-SwiftTalk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD70D9B2DDB8B321F20AC9C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		082AA6401FFA69A200292BDA /* SwiftTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082AA6691FFA69A200292BDA /* Build configuration list for PBXNativeTarget "SwiftTalk" */;
+			buildPhases = (
+				1B4ABEFAF5A58C3E49B5E92B /* [CP] Check Pods Manifest.lock */,
+				082AA63D1FFA69A200292BDA /* Sources */,
+				082AA63E1FFA69A200292BDA /* Frameworks */,
+				082AA63F1FFA69A200292BDA /* Resources */,
+				A95E598A2989FB4112390E70 /* [CP] Embed Pods Frameworks */,
+				97F7973263048AA29A6EB3A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTalk;
+			productName = SwiftTalk;
+			productReference = 082AA6411FFA69A200292BDA /* SwiftTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		082AA6541FFA69A200292BDA /* SwiftTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082AA66C1FFA69A200292BDA /* Build configuration list for PBXNativeTarget "SwiftTalkTests" */;
+			buildPhases = (
+				082AA6511FFA69A200292BDA /* Sources */,
+				082AA6521FFA69A200292BDA /* Frameworks */,
+				082AA6531FFA69A200292BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				082AA6571FFA69A200292BDA /* PBXTargetDependency */,
+			);
+			name = SwiftTalkTests;
+			productName = SwiftTalkTests;
+			productReference = 082AA6551FFA69A200292BDA /* SwiftTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		082AA65F1FFA69A200292BDA /* SwiftTalkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082AA66F1FFA69A200292BDA /* Build configuration list for PBXNativeTarget "SwiftTalkUITests" */;
+			buildPhases = (
+				082AA65C1FFA69A200292BDA /* Sources */,
+				082AA65D1FFA69A200292BDA /* Frameworks */,
+				082AA65E1FFA69A200292BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				082AA6621FFA69A200292BDA /* PBXTargetDependency */,
+			);
+			name = SwiftTalkUITests;
+			productName = SwiftTalkUITests;
+			productReference = 082AA6601FFA69A200292BDA /* SwiftTalkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		082AA6391FFA69A200292BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = luoquan;
+				TargetAttributes = {
+					082AA6401FFA69A200292BDA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					082AA6541FFA69A200292BDA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 082AA6401FFA69A200292BDA;
+					};
+					082AA65F1FFA69A200292BDA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 082AA6401FFA69A200292BDA;
+					};
+				};
+			};
+			buildConfigurationList = 082AA63C1FFA69A200292BDA /* Build configuration list for PBXProject "SwiftTalk" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 082AA6381FFA69A200292BDA;
+			productRefGroup = 082AA6421FFA69A200292BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				082AA6401FFA69A200292BDA /* SwiftTalk */,
+				082AA6541FFA69A200292BDA /* SwiftTalkTests */,
+				082AA65F1FFA69A200292BDA /* SwiftTalkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		082AA63F1FFA69A200292BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082AA64F1FFA69A200292BDA /* LaunchScreen.storyboard in Resources */,
+				082AA64C1FFA69A200292BDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082AA6531FFA69A200292BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082AA65E1FFA69A200292BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4ABEFAF5A58C3E49B5E92B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97F7973263048AA29A6EB3A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A95E598A2989FB4112390E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		082AA63D1FFA69A200292BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082AA6471FFA69A200292BDA /* ViewController.swift in Sources */,
+				082AA6451FFA69A200292BDA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082AA6511FFA69A200292BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082AA65A1FFA69A200292BDA /* SwiftTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082AA65C1FFA69A200292BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082AA6651FFA69A200292BDA /* SwiftTalkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		082AA6571FFA69A200292BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082AA6401FFA69A200292BDA /* SwiftTalk */;
+			targetProxy = 082AA6561FFA69A200292BDA /* PBXContainerItemProxy */;
+		};
+		082AA6621FFA69A200292BDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082AA6401FFA69A200292BDA /* SwiftTalk */;
+			targetProxy = 082AA6611FFA69A200292BDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		082AA64D1FFA69A200292BDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082AA64E1FFA69A200292BDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		082AA6671FFA69A200292BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		082AA6681FFA69A200292BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		082AA66A1FFA69A200292BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42109056DB62C226282C41B7 /* Pods-SwiftTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733RR644TP;
+				INFOPLIST_FILE = SwiftTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nchkdxlq.SwiftTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		082AA66B1FFA69A200292BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8C7B71BC3692607BE869E6 /* Pods-SwiftTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733RR644TP;
+				INFOPLIST_FILE = SwiftTalk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nchkdxlq.SwiftTalk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		082AA66D1FFA69A200292BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733RR644TP;
+				INFOPLIST_FILE = SwiftTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nchkdxlq.SwiftTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTalk.app/SwiftTalk";
+			};
+			name = Debug;
+		};
+		082AA66E1FFA69A200292BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733RR644TP;
+				INFOPLIST_FILE = SwiftTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nchkdxlq.SwiftTalkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTalk.app/SwiftTalk";
+			};
+			name = Release;
+		};
+		082AA6701FFA69A200292BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733RR644TP;
+				INFOPLIST_FILE = SwiftTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nchkdxlq.SwiftTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftTalk;
+			};
+			name = Debug;
+		};
+		082AA6711FFA69A200292BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 733RR644TP;
+				INFOPLIST_FILE = SwiftTalkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nchkdxlq.SwiftTalkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftTalk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		082AA63C1FFA69A200292BDA /* Build configuration list for PBXProject "SwiftTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AA6671FFA69A200292BDA /* Debug */,
+				082AA6681FFA69A200292BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082AA6691FFA69A200292BDA /* Build configuration list for PBXNativeTarget "SwiftTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AA66A1FFA69A200292BDA /* Debug */,
+				082AA66B1FFA69A200292BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082AA66C1FFA69A200292BDA /* Build configuration list for PBXNativeTarget "SwiftTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AA66D1FFA69A200292BDA /* Debug */,
+				082AA66E1FFA69A200292BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082AA66F1FFA69A200292BDA /* Build configuration list for PBXNativeTarget "SwiftTalkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082AA6701FFA69A200292BDA /* Debug */,
+				082AA6711FFA69A200292BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 082AA6391FFA69A200292BDA /* Project object */;
+}
