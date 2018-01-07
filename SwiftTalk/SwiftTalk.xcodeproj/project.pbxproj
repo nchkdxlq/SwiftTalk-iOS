@@ -24,6 +24,10 @@
 		0843A76B2001E000008A1D30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7662001E000008A1D30 /* LoginViewController.swift */; };
 		0843A76C2001E000008A1D30 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7672001E000008A1D30 /* RegisterViewController.swift */; };
 		0843A7732001E3D5008A1D30 /* SwiftTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7722001E3D5008A1D30 /* SwiftTalk.swift */; };
+		0843A77D20020246008A1D30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A77A20020245008A1D30 /* User.swift */; };
+		0843A77E20020246008A1D30 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A77B20020246008A1D30 /* Message.swift */; };
+		0843A77F20020246008A1D30 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A77C20020246008A1D30 /* Chat.swift */; };
+		0843A78120021125008A1D30 /* ModeDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A78020021125008A1D30 /* ModeDefine.swift */; };
 		337CE54CDA4D80712127C1C1 /* Pods_SwiftTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +72,10 @@
 		0843A7662001E000008A1D30 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0843A7672001E000008A1D30 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0843A7722001E3D5008A1D30 /* SwiftTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTalk.swift; sourceTree = "<group>"; };
+		0843A77A20020245008A1D30 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0843A77B20020246008A1D30 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		0843A77C20020246008A1D30 /* Chat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		0843A78020021125008A1D30 /* ModeDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeDefine.swift; sourceTree = "<group>"; };
 		36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42109056DB62C226282C41B7 /* Pods-SwiftTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		FB8C7B71BC3692607BE869E6 /* Pods-SwiftTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -239,6 +247,10 @@
 		0843A7702001E378008A1D30 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0843A77C20020246008A1D30 /* Chat.swift */,
+				0843A77B20020246008A1D30 /* Message.swift */,
+				0843A77A20020245008A1D30 /* User.swift */,
+				0843A78020021125008A1D30 /* ModeDefine.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -440,10 +452,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/WCDB.swift/WCDBSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WCDBSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,16 +472,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0843A7692001E000008A1D30 /* DiscoverViewController.swift in Sources */,
+				0843A78120021125008A1D30 /* ModeDefine.swift in Sources */,
 				0843A7432001138A008A1D30 /* AppDelegate.swift in Sources */,
 				0843A747200113D3008A1D30 /* STNavigationController.swift in Sources */,
 				0843A76C2001E000008A1D30 /* RegisterViewController.swift in Sources */,
 				0843A7732001E3D5008A1D30 /* SwiftTalk.swift in Sources */,
+				0843A77F20020246008A1D30 /* Chat.swift in Sources */,
 				0843A745200113B5008A1D30 /* STTabBarController.swift in Sources */,
+				0843A77D20020246008A1D30 /* User.swift in Sources */,
 				0843A749200113EE008A1D30 /* BaseViewController.swift in Sources */,
 				0843A75E2001DFF3008A1D30 /* ChatListViewController.swift in Sources */,
 				0843A75D2001DFF3008A1D30 /* ChatViewController.swift in Sources */,
 				0843A7682001E000008A1D30 /* ProfileViewController.swift in Sources */,
 				0843A7552001D64A008A1D30 /* Constant.swift in Sources */,
+				0843A77E20020246008A1D30 /* Message.swift in Sources */,
 				0843A76A2001E000008A1D30 /* ContactViewController.swift in Sources */,
 				0843A76B2001E000008A1D30 /* LoginViewController.swift in Sources */,
 			);

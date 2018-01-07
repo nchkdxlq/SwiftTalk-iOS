@@ -17,6 +17,13 @@ public final class SwiftTalk: NSObject {
     }
     
     public func userLogin() {
+        let type = 1
+        switch type {
+        case MessageType.text.rawValue:
+            break
+        default:
+            break
+        }
         
     }
     
