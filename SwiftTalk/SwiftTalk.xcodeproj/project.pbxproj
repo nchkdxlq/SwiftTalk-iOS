@@ -20,6 +20,7 @@
 		0843A74F20011505008A1D30 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A74E20011505008A1D30 /* ProfileViewController.swift */; };
 		0843A75120011972008A1D30 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A75020011972008A1D30 /* DiscoverViewController.swift */; };
 		0843A75320011C23008A1D30 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A75220011C23008A1D30 /* ContactViewController.swift */; };
+		0843A7552001D64A008A1D30 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7542001D64A008A1D30 /* Constant.swift */; };
 		337CE54CDA4D80712127C1C1 /* Pods_SwiftTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		0843A74E20011505008A1D30 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0843A75020011972008A1D30 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		0843A75220011C23008A1D30 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		0843A7542001D64A008A1D30 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42109056DB62C226282C41B7 /* Pods-SwiftTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		FB8C7B71BC3692607BE869E6 /* Pods-SwiftTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				0843A75020011972008A1D30 /* DiscoverViewController.swift */,
 				0843A74E20011505008A1D30 /* ProfileViewController.swift */,
 				0843A75220011C23008A1D30 /* ContactViewController.swift */,
+				0843A7542001D64A008A1D30 /* Constant.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				0843A745200113B5008A1D30 /* STTabBarController.swift in Sources */,
 				0843A749200113EE008A1D30 /* BaseViewController.swift in Sources */,
 				0843A74F20011505008A1D30 /* ProfileViewController.swift in Sources */,
+				0843A7552001D64A008A1D30 /* Constant.swift in Sources */,
 				0843A74B200114DC008A1D30 /* ChatListViewController.swift in Sources */,
 				0843A75320011C23008A1D30 /* ContactViewController.swift in Sources */,
 			);

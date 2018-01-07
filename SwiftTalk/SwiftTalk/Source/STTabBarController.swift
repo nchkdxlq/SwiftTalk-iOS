@@ -10,29 +10,41 @@ import UIKit
 
 fileprivate let kViewController = "controller"
 fileprivate let kTitle = "title"
+fileprivate let kNormalAttributs = "nomarl_attributes"
+fileprivate let kSelectAttributs  = "select_attributes"
 fileprivate let kImage = "image"
 fileprivate let kHighlightImage = "highlight_image"
 fileprivate let kTitl_Attributes = "title_attributes"
 
 class STTabBarController: UITabBarController {
     
-    
     func tabBarItemsDiscriptor() -> [[String: Any]] {
         
-        let chatListItem: [String: Any] = [kViewController: ChatListViewController(),
+        let normalAttributs = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12),
+                               NSAttributedStringKey.foregroundColor: tabbar_normal_color]
+        let selectAttributs = [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 12),
+                               NSAttributedStringKey.foregroundColor: tabbar_select_color]
+        
+        let chatListItem: [String: Any] = [kViewController: ChatListViewController.self,
                                            kTitle: "SwiftTalk",
+                                           kNormalAttributs: normalAttributs,
+                                           kSelectAttributs: selectAttributs,
                                            kImage: "tabbar_mainframe",
                                            kHighlightImage: "tabbar_mainframeHL"]
         
-        let contactItem: [String: Any]  = [kViewController: ContactViewController(),
-                                           kTitle: "Contact",
-                                           kImage: "tabbar_contacts",
-                                           kHighlightImage: "tabbar_contactsHL"]
+        let contactItem: [String: Any] = [kViewController: ContactViewController.self,
+                                          kTitle: "Contact",
+                                          kNormalAttributs: normalAttributs,
+                                          kSelectAttributs: selectAttributs,
+                                          kImage: "tabbar_contacts",
+                                          kHighlightImage: "tabbar_contactsHL"]
         
-        let profileItem: [String: Any]  = [kViewController: ProfileViewController(),
-                                           kTitle: "Me",
-                                           kImage: "tabbar_me",
-                                           kHighlightImage: "tabbar_meHL"]
+        let profileItem: [String: Any] = [kViewController: ProfileViewController.self,
+                                          kTitle: "Me",
+                                          kNormalAttributs: normalAttributs,
+                                          kSelectAttributs: selectAttributs,
+                                          kImage: "tabbar_me",
+                                          kHighlightImage: "tabbar_meHL"]
         
         return [chatListItem, contactItem, profileItem]
     }
@@ -42,23 +54,27 @@ class STTabBarController: UITabBarController {
         
         let itemsInfo = tabBarItemsDiscriptor()
         var navArr = [STNavigationController]()
-        var tabBarItems = [UITabBarItem]()
-        
+
         itemsInfo.forEach { info in
-            let vc = info[kViewController] as! BaseViewController
-            let nav = STNavigationController(rootViewController: vc)
+            let vcClass = info[kViewController] as! BaseViewController.Type
+            let nav = STNavigationController(rootViewController: vcClass.init())
             navArr.append(nav)
-            
+        }
+        setViewControllers(navArr, animated: false)
+        
+        itemsInfo.enumerated().forEach { (index, info) in
+            let item = self.tabBar.items![index]
             let title = info[kTitle] as! String
             let image = UIImage(named: info[kImage] as! String)
             let hightlightImage = UIImage(named: info[kHighlightImage] as! String)
-            let item = UITabBarItem(title: title,
-                                    image: image,
-                                    selectedImage: hightlightImage)
-            tabBarItems.append(item)
+            let normal = info[kNormalAttributs] as? [NSAttributedStringKey:Any]
+            let select = info[kSelectAttributs] as? [NSAttributedStringKey:Any]
+            item.title = title
+            item.image = image
+            item.selectedImage = hightlightImage
+            item.setTitleTextAttributes(normal, for: .normal)
+            item.setTitleTextAttributes(select, for: .selected)
         }
-        
-        setViewControllers(navArr, animated: false)
     }
 
     override func didReceiveMemoryWarning() {
