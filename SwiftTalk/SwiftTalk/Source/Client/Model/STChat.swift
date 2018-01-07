@@ -1,5 +1,5 @@
 //
-//  Chat.swift
+//  STChat.swift
 //  SwiftTalk
 //
 //  Created by nchkdxlq on 2018/1/7.
@@ -17,18 +17,24 @@ enum ChatStatus: String {
 }
 
 enum ChatType: Int {
-    case `private` = 1
-    case group = 2
-    case link = 3
+    case `private` = 1  // 单聊
+    case group = 2  // 讨论组
+    case link = 3   // 链接类型，查看详情进入一个网页
 }
 
-class Chat: NSObject, STModelProtocol {
+
+protocol TalkerProtocol {
+    
+}
+
+class STChat: NSObject, STModelProtocol {
     
     var identifier: String!
     var title: String = ""
     var preview: String = ""
     var type: Int = 0
     var isSticked: Bool = false
+    var talker: TalkerProtocol?
     
     var atMsgList: [String] = []
     var draft: String = ""
