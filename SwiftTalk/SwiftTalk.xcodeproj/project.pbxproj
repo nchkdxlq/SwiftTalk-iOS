@@ -15,12 +15,15 @@
 		0843A745200113B5008A1D30 /* STTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A744200113B5008A1D30 /* STTabBarController.swift */; };
 		0843A747200113D3008A1D30 /* STNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A746200113D3008A1D30 /* STNavigationController.swift */; };
 		0843A749200113EE008A1D30 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A748200113EE008A1D30 /* BaseViewController.swift */; };
-		0843A74B200114DC008A1D30 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A74A200114DC008A1D30 /* ChatListViewController.swift */; };
-		0843A74D200114E8008A1D30 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A74C200114E8008A1D30 /* ChatViewController.swift */; };
-		0843A74F20011505008A1D30 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A74E20011505008A1D30 /* ProfileViewController.swift */; };
-		0843A75120011972008A1D30 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A75020011972008A1D30 /* DiscoverViewController.swift */; };
-		0843A75320011C23008A1D30 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A75220011C23008A1D30 /* ContactViewController.swift */; };
 		0843A7552001D64A008A1D30 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7542001D64A008A1D30 /* Constant.swift */; };
+		0843A75D2001DFF3008A1D30 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A75B2001DFF2008A1D30 /* ChatViewController.swift */; };
+		0843A75E2001DFF3008A1D30 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A75C2001DFF2008A1D30 /* ChatListViewController.swift */; };
+		0843A7682001E000008A1D30 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7602001DFFF008A1D30 /* ProfileViewController.swift */; };
+		0843A7692001E000008A1D30 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7622001DFFF008A1D30 /* DiscoverViewController.swift */; };
+		0843A76A2001E000008A1D30 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7642001DFFF008A1D30 /* ContactViewController.swift */; };
+		0843A76B2001E000008A1D30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7662001E000008A1D30 /* LoginViewController.swift */; };
+		0843A76C2001E000008A1D30 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7672001E000008A1D30 /* RegisterViewController.swift */; };
+		0843A7732001E3D5008A1D30 /* SwiftTalk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0843A7722001E3D5008A1D30 /* SwiftTalk.swift */; };
 		337CE54CDA4D80712127C1C1 /* Pods_SwiftTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */; };
 /* End PBXBuildFile section */
 
@@ -56,12 +59,15 @@
 		0843A744200113B5008A1D30 /* STTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STTabBarController.swift; sourceTree = "<group>"; };
 		0843A746200113D3008A1D30 /* STNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STNavigationController.swift; sourceTree = "<group>"; };
 		0843A748200113EE008A1D30 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		0843A74A200114DC008A1D30 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
-		0843A74C200114E8008A1D30 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		0843A74E20011505008A1D30 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		0843A75020011972008A1D30 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		0843A75220011C23008A1D30 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		0843A7542001D64A008A1D30 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0843A75B2001DFF2008A1D30 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		0843A75C2001DFF2008A1D30 /* ChatListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		0843A7602001DFFF008A1D30 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0843A7622001DFFF008A1D30 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		0843A7642001DFFF008A1D30 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		0843A7662001E000008A1D30 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0843A7672001E000008A1D30 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		0843A7722001E3D5008A1D30 /* SwiftTalk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTalk.swift; sourceTree = "<group>"; };
 		36A05419B4C11A3A976BB4B1 /* Pods_SwiftTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42109056DB62C226282C41B7 /* Pods-SwiftTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.debug.xcconfig"; sourceTree = "<group>"; };
 		FB8C7B71BC3692607BE869E6 /* Pods-SwiftTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTalk.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftTalk/Pods-SwiftTalk.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,18 +153,101 @@
 		0843A73F2001138A008A1D30 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0843A76E2001E104008A1D30 /* Client */,
+				0843A75A2001DFF2008A1D30 /* Chat */,
+				0843A7632001DFFF008A1D30 /* Contact */,
+				0843A7612001DFFF008A1D30 /* Discover */,
+				0843A75F2001DFFF008A1D30 /* Profile */,
+				0843A7652001E000008A1D30 /* Login */,
+				0843A76D2001E005008A1D30 /* Catogery */,
 				0843A7412001138A008A1D30 /* AppDelegate.swift */,
 				0843A744200113B5008A1D30 /* STTabBarController.swift */,
 				0843A746200113D3008A1D30 /* STNavigationController.swift */,
 				0843A748200113EE008A1D30 /* BaseViewController.swift */,
-				0843A74A200114DC008A1D30 /* ChatListViewController.swift */,
-				0843A74C200114E8008A1D30 /* ChatViewController.swift */,
-				0843A75020011972008A1D30 /* DiscoverViewController.swift */,
-				0843A74E20011505008A1D30 /* ProfileViewController.swift */,
-				0843A75220011C23008A1D30 /* ContactViewController.swift */,
 				0843A7542001D64A008A1D30 /* Constant.swift */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		0843A75A2001DFF2008A1D30 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				0843A75B2001DFF2008A1D30 /* ChatViewController.swift */,
+				0843A75C2001DFF2008A1D30 /* ChatListViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		0843A75F2001DFFF008A1D30 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0843A7602001DFFF008A1D30 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		0843A7612001DFFF008A1D30 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0843A7622001DFFF008A1D30 /* DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0843A7632001DFFF008A1D30 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0843A7642001DFFF008A1D30 /* ContactViewController.swift */,
+			);
+			path = Contact;
+			sourceTree = "<group>";
+		};
+		0843A7652001E000008A1D30 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0843A7662001E000008A1D30 /* LoginViewController.swift */,
+				0843A7672001E000008A1D30 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0843A76D2001E005008A1D30 /* Catogery */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Catogery;
+			sourceTree = "<group>";
+		};
+		0843A76E2001E104008A1D30 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				0843A7722001E3D5008A1D30 /* SwiftTalk.swift */,
+				0843A7712001E378008A1D30 /* Database */,
+				0843A7702001E378008A1D30 /* Model */,
+				0843A76F2001E378008A1D30 /* Network */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		0843A76F2001E378008A1D30 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0843A7702001E378008A1D30 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0843A7712001E378008A1D30 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
 			sourceTree = "<group>";
 		};
 		49146ED76C4A2DE951593CF0 /* Pods */ = {
@@ -368,16 +457,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0843A75120011972008A1D30 /* DiscoverViewController.swift in Sources */,
-				0843A74D200114E8008A1D30 /* ChatViewController.swift in Sources */,
+				0843A7692001E000008A1D30 /* DiscoverViewController.swift in Sources */,
 				0843A7432001138A008A1D30 /* AppDelegate.swift in Sources */,
 				0843A747200113D3008A1D30 /* STNavigationController.swift in Sources */,
+				0843A76C2001E000008A1D30 /* RegisterViewController.swift in Sources */,
+				0843A7732001E3D5008A1D30 /* SwiftTalk.swift in Sources */,
 				0843A745200113B5008A1D30 /* STTabBarController.swift in Sources */,
 				0843A749200113EE008A1D30 /* BaseViewController.swift in Sources */,
-				0843A74F20011505008A1D30 /* ProfileViewController.swift in Sources */,
+				0843A75E2001DFF3008A1D30 /* ChatListViewController.swift in Sources */,
+				0843A75D2001DFF3008A1D30 /* ChatViewController.swift in Sources */,
+				0843A7682001E000008A1D30 /* ProfileViewController.swift in Sources */,
 				0843A7552001D64A008A1D30 /* Constant.swift in Sources */,
-				0843A74B200114DC008A1D30 /* ChatListViewController.swift in Sources */,
-				0843A75320011C23008A1D30 /* ContactViewController.swift in Sources */,
+				0843A76A2001E000008A1D30 /* ContactViewController.swift in Sources */,
+				0843A76B2001E000008A1D30 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

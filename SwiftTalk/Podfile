@@ -3,4 +3,5 @@ use_frameworks!
 
 target 'SwiftTalk' do
     pod 'Alamofire', '~> 4.5'
+    pod 'WCDB.swift'
 end
