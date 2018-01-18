@@ -39,7 +39,7 @@ enum MessageStatus: Int {
 
 
 class STMessage: NSObject, STModelProtocol {
-    var mid: String!
+    var identifier: String!
     var umid: Int64 = 0
     var type: Int = 0
     var status: MessageStatus = .idle
@@ -49,8 +49,8 @@ class STMessage: NSObject, STModelProtocol {
     var sendTime: Date?
     var content: Any?
     
-    init(mid: String) {
-        self.mid = mid
+    init(identifier: String) {
+        self.identifier = identifier
     }
 }
 

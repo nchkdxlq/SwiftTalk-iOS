@@ -19,7 +19,7 @@ enum UserType: Int {
 
 class STUser: STModelProtocol {
     
-    var indentifier: String! // UUID 36位长字符串
+    var identifier: String! // UUID 36位长字符串
     var account: String = ""
     var nickName: String = ""
     var gender: Gender = .secret
@@ -31,7 +31,7 @@ class STUser: STModelProtocol {
     var signature: String = ""
 }
 
-// MARK: TalkerProtocol
+// MARK: - TalkerProtocol
 
 extension STUser: TalkerProtocol {
     

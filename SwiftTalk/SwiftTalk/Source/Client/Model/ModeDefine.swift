@@ -14,8 +14,13 @@ protocol STModelProtocol {
 }
 
 class FileObject: STModelProtocol {
+    var identifier: String!
     var name: String = ""
     var size: Int = 0
     var localPath: String = ""
     var remoteURL: String = ""
+    
+    init(identifier: String) {
+        self.identifier = identifier
+    }
 }

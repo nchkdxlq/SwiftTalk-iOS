@@ -15,7 +15,7 @@ enum GroupType: Int {
 
 class STGroup: STModelProtocol {
     
-    var groupId: String!    // UUID 36位长字符串
+    var identifier: String!    // UUID 36位长字符串
     var name: String = ""
     var creator: String = "" // 创建者
     var owner: String = "" // 拥有者， 可以改变
@@ -24,9 +24,13 @@ class STGroup: STModelProtocol {
     var updateTime: Date?
     var members: [String] = [] // 群成员, 保存的是群成员id列表
     var admins: [String] = []  // 管理员
+    
+    init(identifier: String) {
+        self.identifier = identifier
+    }
 }
 
-// MARK: TalkerProtocol
+// MARK: - TalkerProtocol
 
 extension STGroup: TalkerProtocol {
     
