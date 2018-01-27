@@ -8,11 +8,11 @@
 
 import Foundation
 
-public final class SwiftTalk: NSObject {
+public final class SwiftTalk {
     
     static let share = SwiftTalk()
     
-    private override init() {
+    private init() {
         
     }
     
